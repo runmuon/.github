@@ -1,16 +1,23 @@
 # Muon
 
-**Open-source product analytics that explain what changed, why it changed and who was affected.**
+<p align="center">
+  <img src="./assets/muon_logo.png" width="128" height="128" alt="Muon logo">
+</p>
 
-Muon is a self-hostable analytics stack for teams that want more than traffic
-charts. It combines Umami-compatible web analytics, product events, funnels,
-browser health and SDKs in a fast Rust + PostgreSQL core.
+**An open-source, intelligent web and product analytics system that explains
+what changed, why it changed and who was affected.**
+
+Muon is a self-hostable intelligent analytics stack for teams that want more
+than traffic charts. It combines Umami-compatible web analytics, product events,
+funnels, browser health and SDKs in a fast Rust + PostgreSQL core. Product
+intelligence is the layer on top: Muon detects meaningful changes, investigates
+affected segments and gives you the likely reason.
 
 ## Start Here
 
 | Repository | What it gives you |
 | --- | --- |
-| [runmuon/muon](https://github.com/runmuon/muon) | Full analytics stack: Rust API, React dashboard, tracker, Docker Compose and benchmarks. |
+| [runmuon/muon](https://github.com/runmuon/muon) | Full intelligent analytics stack: Rust API, React dashboard, tracker, Docker Compose and benchmarks. |
 | [runmuon/tracker](https://github.com/runmuon/tracker) | Dependency-free browser tracker with SPA pageviews, custom events and optional JS error capture. |
 | [runmuon/muon-js](https://github.com/runmuon/muon-js) | Throw-safe Node.js SDK with persistent offline queue and process error capture. |
 | [runmuon/muon-swift](https://github.com/runmuon/muon-swift) | Swift SDK for iOS, macOS, tvOS and watchOS with offline queue and crash handoff. |
