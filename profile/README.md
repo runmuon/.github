@@ -1,9 +1,5 @@
 # Muon
 
-<p align="center">
-  <img src="./assets/muon_logo.png" width="128" height="128" alt="Muon logo">
-</p>
-
 **An open-source, intelligent web and product analytics system that explains
 what changed, why it changed and who was affected.**
 
