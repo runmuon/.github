@@ -57,9 +57,9 @@ Open the dashboard at `http://localhost:3000`.
 ```
 
 ```js
-muon.track("signup_completed", { plan: "pro" });
-muon.identify("user_123");
-muon.setRelease("1.8.4");
+muon.track("checkout_started", { cartValue: 12800, currency: "USD" });
+muon.identify("acct_9f4c2a");
+muon.setRelease("web-2026.07.09");
 ```
 
 ## License
